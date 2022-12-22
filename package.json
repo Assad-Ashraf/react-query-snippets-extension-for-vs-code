@@ -1,7 +1,7 @@
 {
   "name": "react-query-snippets",
   "displayName": "React Query Snippets",
-  "description": "This extension has very useful snippets that increases the react-Query Develpers dev-speed.",
+  "description": "Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier. React Query Snippets",
   "version": "0.0.1",
   "icon": "icon.png",
   "publisher": "asad9988",
@@ -18,21 +18,31 @@
   "contributes": {
     "snippets": [
       {
-        "languages": [
-          "javascript",
-          "typescript",
-          "typescriptreact",
-          "javascriptreact"
-        ],
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
   },
   "keywords": [
-    "react query snippets",
-    "react query",
-    "react query snippet",
+    "snippets",
     "react",
-    "react snippet"
+    "react-query",
+    "react-query-snippet",
+    "customizable",
+    "javascript",
+    "typescript",
+    "prettier"
   ]
 }
