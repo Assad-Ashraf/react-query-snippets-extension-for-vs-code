@@ -1,65 +1,50 @@
-# react-query-snippets README
+<br />
+<p align="center">
+  </div>
+        <h3 align="center">React Query Snippets</h3>
+</p>
 
-This is the README for your extension "react-query-snippets". After writing up a brief description, we recommend including the following sections.
+## Table of Contents
 
-## Features
+- [Table of Contents](#table-of-contents)
+- [About the Project](#about-the-project)
+- [React Query Snippets](#react-query-snippets)
+- [License](#license)
+- [Extras](#extras)
+- [Contact](#contact)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## About the Project
 
-For example if there is an image subfolder under your extension project workspace:
+This extension aims to accelerate development speed in projects that use React Query.
 
-\!\[feature X\]\(images/feature-x.png\)
+## React Query Snippets
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Here you can see the available snippets for now. Will be updated soon for other possible snippets
 
-## Requirements
+| Snippet | Content                                                                |
+| ------: | ---------------------------------------------------------------------- |
+|    `uq` | Generates **useQuery** with API call                                   |
+|    `um` | Generates **useMutation** with API call                                |
+|   `uiq` | Generates **useInfinteQueries** with API call                          |
+|   `uqp` | Generates **useQuery** with one parameter and API call                 |
+|   `upq` | Generates **usePaginatedQuery** with API call                          |
+|   `rqc` | Generates a functional component with possible outcomes                |
+|  `rqct` | Generates a functional component with possible outcomes (ternary)      |
+|   `rqs` | Generates an if statement with status                                  |
+|    `iq` | Generates **queryCache.invalidateQueries** invalidateQueries statement |
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## License
 
-## Extension Settings
+Distributed under the _MIT license_. See `LICENSE.md` for more information.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Extras
 
-For example:
+This is an ongoing project. PRs are always welcomed. If you have any question or any issue. You can contact me via Twitter or Email. Hope you gals/guys enjoy. Peace✌️
 
-This extension contributes the following settings:
+## Contact
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Asad Ashraf - **asadashraf9988(at)gmail(dot)com**
 
-## Known Issues
+## License
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Distributed under the _MIT license_. See `LICENSE.md` for more information.

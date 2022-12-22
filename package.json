@@ -3,6 +3,12 @@
   "displayName": "React Query Snippets",
   "description": "This extension has very useful snippets that increases the react-Query Develpers dev-speed.",
   "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "asad9988",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -21,5 +27,12 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "keywords": [
+    "react query snippets",
+    "react query",
+    "react query snippet",
+    "react",
+    "react snippet"
+  ]
 }
