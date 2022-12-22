@@ -1,7 +1,7 @@
 {
   "name": "react-query-snippets",
   "displayName": "React Query Snippets",
-  "description": "Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier. React Query Snippets",
+  "description": "React Query Snippets",
   "version": "0.2.0",
   "icon": "icon.png",
   "publisher": "asad9988",
