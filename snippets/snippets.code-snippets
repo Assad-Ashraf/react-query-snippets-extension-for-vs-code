@@ -1,0 +1,146 @@
+{
+  "use Query": {
+    "body": [
+      "  const fetch${1} = async (key ) => {",
+      "    const { data } = await axios.get()",
+      "    return data",
+      "  }",
+      "",
+      "  const {",
+      "    status,",
+      "    data,",
+      "    error,",
+      "    refetch,",
+      "  } = useQuery(['${1}'], fetch${1})"
+    ],
+    "prefix": "uq",
+    "description": "React Query useQuery https://react-query.tanstack.com/docs/api#usequery"
+  },
+  "use Query with Param": {
+    "body": [
+      "  const fetch${1} = async (key,{${2} }) => {",
+      "    const { data } = await axios.get()",
+      "    return data",
+      "  }",
+      "",
+      "  const {",
+      "    status,",
+      "    data,",
+      "    error,",
+      "    refetch,",
+      "  } = useQuery(['${1}',{${2}}], fetch${1})"
+    ],
+    "prefix": "uqp",
+    "description": "React Query - useQuery with parameter - https://react-query.tanstack.com/docs/api#usequery"
+  },
+  "Use Mutation": {
+    "body": [
+      "  const ${1} = async () => {",
+      "    const { data } = await axios.${2}(`${3}`, {",
+      "      ${4}",
+      "    })",
+      "",
+      "    return data",
+      "  }",
+      "const [",
+      "mutate,",
+      "{ isIdle, isLoading, isError, isSuccess, data, error },",
+      "] = useMutation(${1})"
+    ],
+    "prefix": "um",
+    "description": "React Query - useMutation - https://react-query.tanstack.com/docs/api#usemutation"
+  },
+  "Use Paginated Query": {
+    "prefix": "upq",
+    "body": [
+      "const fetch${1} = (key, page = 0) => axios.get(${2})",
+      "const {",
+      "status,",
+      "error,",
+      "resolvedData,",
+      "latestData,",
+      "isFetching,",
+      "} = usePaginatedQuery([${1}, page], fetch${1})"
+    ],
+    "description": "React Query - usePaginatedQuery - https://react-query.tanstack.com/docs/api#usepaginatedquery"
+  },
+  "Use Infinite Query": {
+    "prefix": "uiq",
+    "body": [
+      "const fetch${1} = (key, cursor = 0) =>",
+      "axios.get(${2} + cursor)",
+      "const {",
+      "status,",
+      "data,",
+      "isFetching,",
+      "isFetchingMore,",
+      "fetchMore,",
+      "canFetchMore,",
+      "} = useInfiniteQuery('${1}', fetch${1}, {",
+      "getFetchMore: (last, all) => last.nextCursor,",
+      "})"
+    ],
+    "description": "React Query - useInfiniteQuery - https://react-query.tanstack.com/docs/api#usepaginatedquery"
+  },
+  "React query Functional Component Result": {
+    "prefix": "rqc",
+    "body": [
+      "",
+      "const ${1} = () => {",
+      "  if (status === 'idle') {",
+      "    return <span>Not ready... </span>;",
+      "  }",
+      "",
+      "  if (status === 'loading') {",
+      "    return (<span>Loading... </span>);",
+      "  }",
+      "  if (status === 'error ') {",
+      "    return (",
+      "      <span>",
+      "        Error:",
+      "        {error.message}",
+      "      </span>",
+      "    );",
+      "  }",
+      "",
+      "  if (data) {",
+      "    return (",
+      "      <div>{data}</div>",
+      "    );",
+      "  }",
+      "  return null;",
+      "};"
+    ],
+    "description": "rqc"
+  },
+  "rqct": {
+    "prefix": "rqct",
+    "body": [
+      "{status === 'idle' ? (",
+      "  'Not ready...'",
+      ") : status === 'loading' ? (",
+      " <div>Loading...</div>",
+      ") : isError ? (",
+      "  <span>{error.message}</span>",
+      ") : (",
+      "  <div>{data}</div>",
+      "    ",
+      ")}"
+    ],
+    "description": "rqct"
+  },
+  "rqs": {
+    "prefix": "rqs",
+    "body": [
+      "if (status === 'idle') {",
+      "  return <span>Not ready...</span>;",
+      "}"
+    ],
+    "description": "rqs"
+  },
+  "iq": {
+    "prefix": "iq",
+    "body": ["queryCache.invalidateQueries([${1},{${2}: ${3}}])"],
+    "description": "iq"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "react-query-snippets",
+  "displayName": "React Query Snippets",
+  "description": "This extension has very useful snippets that increases the react-Query Develpers dev-speed.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "languages": [
+          "javascript",
+          "typescript",
+          "typescriptreact",
+          "javascriptreact"
+        ],
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
