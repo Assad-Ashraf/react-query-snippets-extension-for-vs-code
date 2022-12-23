@@ -3,7 +3,7 @@
   "description": "Snippets for React Query",
   "version": "0.7.0",
   "engines": {
-    "vscode": "^1.48.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Snippets"
