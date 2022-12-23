@@ -1,16 +1,10 @@
 {
-  "name": "react-query-snippets",
+  "name": "react-query",
   "displayName": "React Query Snippets",
-  "description": "React Query Snippets",
-  "version": "0.2.0",
-  "icon": "icon.png",
-  "publisher": "asad9988",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code"
-  },
+  "description": "Snippets for React Query",
+  "version": "0.3.0",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.48.0"
   },
   "categories": [
     "Snippets"
@@ -18,29 +12,20 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "typescriptreact",
+        "languages": [
+          "javascript",
+          "typescript",
+          "typescriptreact",
+          "javascriptreact"
+        ],
         "path": "./snippets/snippets.code-snippets"
       }
     ]
   },
-  "keywords": [
-    "react-query-snippets",
-    "react snippets",
-    "react query",
-    "react query snippets",
-    "react query snippet",
-    "react-query"
-  ]
+  "icon": "icon.png",
+  "publisher": "asad9988",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code"
+  }
 }
