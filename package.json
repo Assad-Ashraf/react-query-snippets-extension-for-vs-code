@@ -1,5 +1,4 @@
 {
-  "name": "react-query",
   "displayName": "React Query Snippets",
   "description": "Snippets for React Query",
   "version": "0.5.0",
@@ -27,5 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code"
-  }
+  },
+  "name": "react-query-snippets"
 }
