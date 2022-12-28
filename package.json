@@ -27,5 +27,16 @@
     "type": "git",
     "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code"
   },
-  "name": "react-query-snippets"
+  "homepage": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code",
+  "bugs": {
+    "url": "https://github.com/Asad9988/react-query-snippets-extension-for-vs-code/issues"
+  },
+  "name": "react-query-snippets",
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onStartupFinished"
+  ]
 }
